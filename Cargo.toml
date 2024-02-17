@@ -7,3 +7,6 @@ edition = "2021"
 
 [dependencies]
 dotenv = "0.15.0"
+libsql-client = "0.33.4"
+url = "2.5.0"
+tokio = { version = "1", features = ["full"] }
